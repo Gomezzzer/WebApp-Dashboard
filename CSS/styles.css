@@ -46,14 +46,11 @@
   .header-title {
     font-size: 25px;
     align-self: center;
-    margin-right: auto;
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto 20px 10px;
   }
   
   .profile-img {
-    height:auto;
+    height: auto;
     width: 40px;
     border-radius: 180px;
     align-self: center;
@@ -78,9 +75,7 @@
     align-self: center;
     height: 20px;
     width: auto;
-    margin-left: 34px;
-    margin-top: auto;
-    margin-bottom: 15px;
+    margin: auto 0 15px 34px;
     transition: transform .2s;
   }
   
@@ -151,8 +146,7 @@
   
   .header-name {
     align-self: center;
-    margin-right: 10px;
-    margin-left: 10px; 
+    margin: 0 10px 0 10px;
     font-size: 12px; 
   }
 
@@ -176,8 +170,7 @@
     border-radius: 360px;
     height: 5px;
     width: 5px;
-    margin-left: 49px;
-    margin-top: 15px;
+    margin: 15px 0 0 49px;
   }
 
   .icon-chart,
@@ -200,8 +193,9 @@
   }
 
   .main-header h2 {
-    margin-left: 8px;
-    margin-top: 7px;
+    margin-left: 12px;
+    margin-top: 10px;
+    font-size: 20px;
   }
   
   .headline {
@@ -225,14 +219,14 @@
   .alert-banner {
     display: flex;
     flex-direction: row;
-    height: 45px;                     
+    height: 44px;                     
     background-color: #7874c4;
     color: white;
     padding: 14px 20px;
     font-size: 15px;
     margin: 12px;
-    margin-left: 6px;
-    margin-right: 2px;
+    margin-left: 13px;
+    margin-right: 17px;
     border-radius: 5px;
     cursor: pointer;
   }
@@ -254,18 +248,20 @@
 
   .traffic-header h3 {
     padding: 8px;
-    font-size: 20px;
+    font-size: 17px; 
     font-weight: 500;
-    margin-left: 4px;  
+    margin-left: 5px;  
   }
 
   .traffic-nav {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
   }
 
   .traffic-nav li {
-  padding: 10px;
+    padding: 10px;
+    padding-right: 7px;
+    padding-left: 7px; 
+    margin-left: 10px;
   }
 
   .traffic-nav-link {
@@ -278,22 +274,24 @@
     color:white;
   }
 
-  .widget-container-full {
-    margin-right: 10px;
-    margin-left: 10px;
+  .widget-container-full, .widget-container-half {
+    width: 95vw;
   }
-
+ 
+  .widget-container-full {
+    margin: 10px;
+  }
+  
   /*-- Chart borders --*/
   
   .daily {
-    margin-right: 15px;
-    margin-left: 10px;
+    margin: 0 15px 0 10px;
     padding-top: 10px;   
   }
 
   .daily h3 {
     margin-left: 5px;
-    font-size: 20px;
+    font-size: 17px; 
   }
 
   .mobile,
@@ -302,7 +300,8 @@
   }
   
   .mobile h3 {
-    margin: 14px;
+    margin: 17px;
+    font-size: 17px;
   }
 
   .widget-container-half {
@@ -321,7 +320,7 @@
   .social-container h3 {
     font-weight: 500;
     margin: 1px;
-    font-size: 20px;
+    font-size: 17px; 
     padding-bottom: 15px;
     padding-left: 10px;
   }
@@ -331,10 +330,12 @@
   .instagram-container,
   .twitter-container {
     display: flex;
-    background-color: #eaeaea;
+    background-color: #f0f0f0;
     border: solid #C7c7c7 1px;
     border-radius: 5px;
     padding: 10px;
+    padding-top: 17px;
+    padding-bottom: 0px;
     margin-left: 9px;
     margin-bottom: 15px;
   }
@@ -389,7 +390,7 @@
   .members h3 {
     padding-top: 8px;
     width: 100%;
-    font-size: 20px;
+    font-size: 17px;
     margin: 10px;
     margin-left: 22px;
   }
@@ -431,10 +432,9 @@
 
   .recent h3 {
     width: 100%;
-    font-size: 20px;
+    font-size: 17px;
     margin: 10px;
-    margin-top: 22px;
-    margin-left: 15px;  
+    margin: 22px 0 0 15px; 
   }
 
   .recent-1,
@@ -484,7 +484,7 @@
   }
   
   .message h3 {
-    font-size: 20px;
+    font-size: 17px;
     margin: 12px;
     margin-bottom: 5px;
     margin-top: 15px;
@@ -548,7 +548,7 @@
 
   .settings h3 {
     padding-top: 15px;
-    font-size: 20px;
+    font-size: 17px;
     margin: 10px;
   }
 
@@ -605,9 +605,7 @@
     color: white;
     width: calc(50% - .5rem);
     height: 50px;
-    margin-bottom: 20px;
-    margin-right: 7px;
-    margin-left: 6px;
+    margin: 0 7px 20px 6px;
     border-radius: 5px;
   }
 
@@ -631,7 +629,25 @@
     display: grid;
     margin-right: 17px;
    }
-  
+
+  .widget-container-full {
+    width: 109vw;
+  }
+   .widget-container-half {
+    width: 54vw;  
+  }
+
+
+  .daily {
+    margin: 7px;
+    padding-top: 16px;
+  }
+
+  .daily h3 {
+    margin-left: 14px;
+    padding-bottom: 14px;
+  }
+
   .header-title {
      display: flex;
      flex-direction: row;
@@ -647,7 +663,7 @@
   }
 
   .main-header h2 {
-    margin-left: -6px;
+    margin-left: -13px;
   }
 
   .tab {
@@ -667,13 +683,16 @@
     margin-top: 10px;
   }
 
-  .notificationsList {
-    width: 228px;
-    display: none;
-    margin-top: 25px;
-    padding: 0px;
-    position: fixed;
-    top: 45px;
+ .notificationsList {
+   width: 191px;
+   display: none;
+   right: -40px;
+ }
+
+  .alert-banner {
+    margin: 0 2px 0 3px;
+    height: 40px;
+    padding-top: 11px;
   }
 
 /* Graphs */
@@ -681,6 +700,10 @@
   .traffic-header {
     display: flex;
     justify-content: space-between; 
+  }
+
+  .traffic-header h3 {
+    margin-top: 1em;
   }
 
   #traffic-chart {
@@ -694,7 +717,7 @@
   
   .traffic-nav {
     margin-right: 25px;
-    
+    margin-top: 17px;  
   }
 
   .traffic-nav-link-active {
@@ -715,11 +738,15 @@
     border-left: solid  #eaeaea; 
     grid-template-columns: 1fr 1fr;
     border-top: none;
-    
   }
  
   .mobile h3 {
     border-top: none;
+  }
+
+  .mobile {
+    margin-bottom: 1px;
+    padding-bottom: 7px;
   }
 
   /* Social */
@@ -805,8 +832,8 @@
   .send-button {
     display: flex;
     width: 98%;
-    margin-right: 5px;
-    margin-left: 1px;  
+    margin-right: -8px;
+    margin-left: 1px;
   }
 
   .message h3 {
@@ -826,8 +853,7 @@
   
   .button-primary,
   .button-secondary {
-    margin-right: 15px;
-    margin-left: 2px;
+    margin: 0 17px 10px 2px;
   }
   
 
@@ -835,8 +861,7 @@
 
   .form-field {
     width: 95.5%;
-    margin-right: 4px;
-    margin-left: 6px;
+    margin-top: 4px;
   }
 
   .settings h3 {
@@ -846,8 +871,7 @@
   }
 
   .settings {
-    margin-left: -10px;
-    margin-right: -16px;
+    margin: 0 -16px 0 -10px;
   }
 
   .switch-ios.switch-light {
@@ -857,8 +881,7 @@
   }
 
   .settings-button {
-    margin-left: 16px;
-    margin-right: 0px;
+    margin: 0 0 0 16px;
     width: 98%;
   }
     
@@ -869,14 +892,39 @@
   @media (min-width: 1024px) {
   
   .grid-container {
-      grid-template-columns: 70px 1fr; 
+     grid-template-columns: 80px 1fr; 
      grid-template-areas:
        "header header"
        "nav main";   
   }
-
+  
    main {
-    display: grid;
+    margin-right: 22px;
+  }
+
+  .tab {
+    margin-right: -37px;
+  }
+
+  .main-header {
+    margin-left: 0px;
+  }
+
+  .notificationsList {
+    width: 183px;
+    display: none;
+    right: 101px;
+  }
+
+  .traffic {
+    margin: 0 -22px 0 -20px;
+  }
+
+  .alert-banner {
+    margin: 0 -6px 8px -5px;
+    height: 33px;
+    padding: 7px;
+    padding-left: 12px;
   }
 
   .daily-bar,
@@ -896,25 +944,49 @@
   .members-recent-activity {
     border-top: none;
     border-bottom: none;  
- }
+  }
+
+  .members {
+    margin: 0 11px 0 -9px;
+  }
 
   .members-recent-activity {
     border-left: solid #eaeaea 1px;
- }
+  }
+
+  .recent {
+    padding-top: 7px;
+  }
+
+  .recent h3 {
+    margin: 12px;
+  }
 
   .desktop-message-settings  {
     display: grid; 
     grid-column: 1/2;
     grid-template-columns: 1fr 1fr;
     border-top: none;
- } 
+  } 
+
+  .message {
+   margin: 0 9px 0 -3px;
+  }
  
   .settings { 
     grid-column: 2/3;
     grid-template-columns: 1fr 1fr;
     border-top: none; 
-    margin-left: 3px;
+    margin-left: 1px;
     border-left: solid #eaeaea 1px; 
+  }
+
+  .userfield,
+  .form-area,
+  .send-button {
+    width: 97%;
+    margin-right: 8px;
+    margin-left: 1px;
   }
 
   .form-field {
