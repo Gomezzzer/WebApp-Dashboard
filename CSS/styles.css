@@ -41,7 +41,7 @@
   
   /*-- Header -- */
 
- @media (min-width: 320px) { 
+ 
 
   .header-title {
     font-size: 25px;
@@ -624,7 +624,7 @@
     background: darkgray;
   }
 
-  }
+
 
   /*  Media Queries */
 
