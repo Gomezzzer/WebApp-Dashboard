@@ -240,7 +240,7 @@ send.addEventListener('click', () => {
 // Auto Complete 
 
 const user_names = ["Dale Byrd", "Dan Oliver", "Dawn Wood", "Victoria Chambers"];
-autocomplete(document.querySelector("#user-field"), user_names);
+autocomplete(document.querySelector("userfield"), user_names);
 
 function autocomplete(inp, arr) {
   /*the autocomplete function takes two arguments,

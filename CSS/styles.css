@@ -482,6 +482,7 @@
     flex-direction: column;
   }
 
+
   .desktop-message-settings {
     border-top: solid #C7c7c7 1px;
     padding-right: 2px;
@@ -514,6 +515,7 @@
     align-self: center;
     margin-top: 16px;
     margin-bottom: 20px;
+    margin-left: 13px;
     border: solid #eaeaea 1px;
     font-size: 15px;
   }
@@ -792,6 +794,10 @@
     width: 98%;
     margin-right: -8px;
     margin-left: 1px;
+  }
+
+  .userfield {
+    margin-left: 11px;
   }
 
   .message h3 {
